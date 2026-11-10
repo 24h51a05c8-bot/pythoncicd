@@ -1,4 +1,6 @@
-def add(a,b):
-return a+b
-print("hello from python ci/cd")
-print("addition",add(2,3)
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print("Hello from Python CI/CD")
+    print("Addition:", add(2, 3))

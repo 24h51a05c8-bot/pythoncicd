@@ -1,3 +1,4 @@
 from app import add
+
 def test_add():
-assert.add(5,2)
+    assert add(5, 2) == 7
